@@ -1,0 +1,18 @@
+[project]
+name = "agentsweep"
+version = "0.1.0"
+description = "See what your AI agent tools have piled up on your disk, and clear it safely. Nothing is deleted; it goes to a trash folder you can restore from."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+agentsweep = "agentsweep.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["agentsweep"]
