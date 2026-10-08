@@ -5,7 +5,13 @@ description = "See what your AI agent tools have piled up on your disk, and clea
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
+authors = [{ name = "Patricia Kusch" }]
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/patkusch/agentsweep"
+Repository = "https://github.com/patkusch/agentsweep"
+Issues = "https://github.com/patkusch/agentsweep/issues"
 
 [project.scripts]
 agentsweep = "agentsweep.cli:main"
