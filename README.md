@@ -1,5 +1,7 @@
 # agentsweep
 
+[![ci](https://github.com/patkusch/agentsweep/actions/workflows/ci.yml/badge.svg)](https://github.com/patkusch/agentsweep/actions/workflows/ci.yml)
+
 See what your AI agent tools have piled up on your disk, and clear it safely.
 
 > Agent tools quietly keep old conversations, logs, caches and model downloads. agentsweep shows you what is taking space and moves what you choose to a trash folder. You can put it all back.
