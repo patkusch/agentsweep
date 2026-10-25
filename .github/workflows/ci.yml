@@ -13,7 +13,8 @@ jobs:
     timeout-minutes: 15
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        # ubuntu-24.04, not -latest: the newer image has no Python 3.9 build for setup-python.
+        os: [ubuntu-24.04, macos-latest]
         python: ["3.9", "3.13"]
     steps:
       - uses: actions/checkout@v7
