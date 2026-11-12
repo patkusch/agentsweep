@@ -1,4 +1,3 @@
-import fnmatch
 import glob
 import json
 import os
