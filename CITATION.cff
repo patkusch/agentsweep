@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "agentsweep"
+abstract: "See what your AI agent tools have piled up on disk, and clear it safely. Nothing is deleted; it goes to a trash folder you can restore from."
+type: software
+authors:
+  - family-names: "Kusch"
+    given-names: "Patricia"
+repository-code: "https://github.com/patkusch/agentsweep"
+license: MIT
