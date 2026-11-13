@@ -3,7 +3,7 @@ import sys
 import time
 from pathlib import Path
 
-from . import core
+from . import __version__, core
 
 KIND_TEXT = {
     "cache": "safe to clear, rebuilt automatically",
@@ -50,6 +50,7 @@ def report(items):
 
 def main(argv=None):
     p = argparse.ArgumentParser(prog="agentsweep", description="See what your AI agent tools have piled up, and clear it safely.")
+    p.add_argument("--version", action="version", version=f"agentsweep {__version__}")
     p.add_argument("--home", default=str(Path.home()), help=argparse.SUPPRESS)
     sub = p.add_subparsers(dest="cmd")
     sub.add_parser("report", help="show what is taking space (default)")
