@@ -69,3 +69,7 @@ python3 -m unittest discover -s tests
 ```
 
 MIT licensed.
+
+---
+
+[Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Security policy](SECURITY.md)
