@@ -20,6 +20,7 @@ dependencies = []
 Homepage = "https://github.com/patkusch/agentsweep"
 Repository = "https://github.com/patkusch/agentsweep"
 Issues = "https://github.com/patkusch/agentsweep/issues"
+Changelog = "https://github.com/patkusch/agentsweep/blob/main/CHANGELOG.md"
 
 [project.scripts]
 agentsweep = "agentsweep.cli:main"
