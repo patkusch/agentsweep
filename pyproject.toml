@@ -26,7 +26,7 @@ Changelog = "https://github.com/patkusch/agentsweep/blob/main/CHANGELOG.md"
 agentsweep = "agentsweep.cli:main"
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=84.2.1"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
